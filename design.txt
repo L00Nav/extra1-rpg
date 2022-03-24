@@ -1,0 +1,21 @@
+Initial descriptiom:
+
+The game should be a linear RPG
+    -The gameplay consists exclusively of a generous handful of fights
+        No tech trees, no exploration, etc.
+    -There's three classes the player can pick from, that have RPG-maker / early FF / monmusu quest style combat.
+        Character progression is linear. The puzzle is to figure out how to use existing tools.
+    
+    The three classes are: engineer, beast, psion
+        Engineer's critical resource is his gear. It performs decently, but you can overcharge it for a great effect, losing it for the rest of the fight
+        Beast's critical resource is his health. They have superhuman powers that cost health and, if managed properly, heal them through violence
+        Psion's critical resource is their focus. It's used for fantastic spells, but you'll struggle to have enough. Replenishes actively and passively.
+
+
+
+Before anything else tho, let's figure out basic functionality:
+    Displaying images on canvas
+    UI
+    Controls
+    Combat
+    Saving results of each battle
