@@ -1,6 +1,6 @@
 # 6-sign-up
 
-[See the site in action](tayakinotenshi.github.io/6-sign-up/)
+[See the site in action](tayakinotenshi.github.io/extra1-rpg/)
 
 ---
 
