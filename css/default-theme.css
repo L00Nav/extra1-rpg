@@ -19,11 +19,26 @@ body {
 }
 
 .gamWindoe {
+    position: absolute;
     width: 800px;
-    height: 600px;
+    height: 400px;
     border: 1px solid #000;
     margin-left: calc(50% - 400px);
     margin-top: 50px;
+}
+
+.UILayer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.drawLayer {
+    position: absolute;
+    width: 800px;
+    height: 400px;
 }
 
 button {
@@ -33,4 +48,13 @@ button {
 .controlPanel {
     margin-top: 20px;
     margin-left: calc(50% - 400px);
+}
+
+.testUI {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    background: #333;
+    margin-left: calc(50% - 400px);
+    margin-top: 450px;
 }
