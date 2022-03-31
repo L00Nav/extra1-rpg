@@ -1,10 +1,12 @@
 //console.debug("butt");
 
+
+let xPos = 10;
+let yPos = 10;
+
+
 function init()
 {
-    xPos = 10;
-    yPos = 10;
-    
     canvas = document.getElementById("layer1");
     ctx = canvas.getContext("2d");
     ctx.fillStyle = "#999";
