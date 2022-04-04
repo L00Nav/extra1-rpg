@@ -10,7 +10,7 @@
     <script src="./scripts/test.js" defer></script>
 </head>
 
-<body onload="init()">
+<body>
     <nav class="navBar">
         <a href="#">Play</a>
         <a href="./wiki/engineer">Engineer</a>
@@ -19,20 +19,21 @@
         <a href="./wiki/how-to">How to play?</a>
     </nav>
     <div class="gamWindoe" id="gamWindoe">
-        <canvas class="drawLayer layer1" id="layer1"></canvas>
-        <canvas class="drawLayer layer2" id="layer2"></canvas>
-        <canvas class="drawLayer layer3" id="layer3"></canvas>
+        <canvas class="drawLayer" id="bgLayer"></canvas> <!--background-->
+        <canvas class="drawLayer" id="eLayer"></canvas> <!--enemy-->
+        <canvas class="drawLayer" id="epLayer"></canvas> <!--enemy particles-->
+        <canvas class="drawLayer" id="pLayer"></canvas> <!--player-->
+        <canvas class="drawLayer" id="ppLayer"></canvas> <!--player particles-->
         <div class="UILayer" id="UILayer1"></div>
+        <div class="UILayer menu" id="menu">
+            <button class="playButton" onclick="init()">Play</button>
+        </div>
     </div>
     <div class="testUI"></div>
     <div class="controlPanel">
-        <button onclick="up()">Up</button>
-        <button onclick="down()">Down</button>
-        <button onclick="left()">Left</button>
-        <button onclick="right()">right</button>
-        <button onclick="shake()">Shake</button>
-        <button onclick="testWrite()">Scribble</button>
-        <button onclick="particle()">Particles</button>
+        <button onclick="toggleMenu()">playScreen</button>
+        <button onclick="particleE()">Enemy explosion</button>
+        <button onclick="particleP()">Player explosion</button>
     </div>
 </body>
 </html>

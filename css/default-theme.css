@@ -12,6 +12,22 @@ body {
     background-color: #222;
 }
 
+main {
+    background-color: #333;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: calc(50% - 400px);
+    padding: 50px 50px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin: 40px 0px 50px 0px;
+}
+
 .navBar {
     margin-top: 50px;
     margin-left: calc(50% - 400px);
@@ -57,4 +73,16 @@ button {
     background: #333;
     margin-left: calc(50% - 400px);
     margin-top: 450px;
+}
+
+.menu {
+    background-color: #333;
+}
+
+.playButton {
+    border: none;
+    font-size: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }

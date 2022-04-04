@@ -19,3 +19,31 @@ Before anything else tho, let's figure out basic functionality:
     Controls
     Combat
     Saving results of each battle
+
+
+
+
+Fluff:
+
+The world:
+A dark fantasy setting, where humans fight various hostile creatures for survival.
+
+The faith: The dominant religion of the area is centered around the celestial bodies.
+    Moon - dominant deity that shines brighter when favour is high.
+    Sun - deity of justice, death, and purging monsters.
+    The constellations - the rest of the pantheon.
+
+The engineer: What is freedom?
+A smart craftsman who's made themselves a set of power armour. They wish to become a knight, but aren't a noble and have therefore been rejected. Dissatisfied at the decaying upper class that don't live up to the ideals they claim to hold, the engineer sets out to show them how it's done. To them, the [mcguffin] looks like a star-themed sword.
+
+The psion: Power corrupts
+A talented magic user that fights with their mind alone. Partially released from restraints imposed upon them out of fear, they flee civilisation to master the new heights of their power, shatter the rest of their chains and learn about the consequences of there being a god-king. To them, the [mcguffin] looks like a broken collar.
+
+The beast: Unsightly nature
+A person who's been struck by a violent mutation, becoming an outcast. Whatever the cause, they now seek a way to return to their normal life. To them, the [mcguffin] looks like a simple human idol.
+
+The fights:
+
+Engineer - psion, then beast  ("do you think they would accept me as a knight?")
+Psion - beast, then engineer  (slaughtering the knight as a dark sorcerer of old)
+Beast - engineer, then psion  ("Why do you try to fit in?")
